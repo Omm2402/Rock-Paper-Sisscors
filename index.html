@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Rock,Paper,Scissors</title>
+  </head>
+  <body>
+    <section class="game">
+      <!-- title -->
+      <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Rock Paper Scissors</span>
+      <!-- Instructions button -->
+      <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+        Instructions
+      </button>
+    </nav>
+
+    <div class="text-center mt-3">
+     <h1>WELCOME TO ROCK PAPER SCISSORS GAME!</h1>
+   </div>
+
+   <div id="inside">
+
+
+           <p id="instruction">Select your ammo:</p>
+
+           <div class="choice">
+             <div class="select-choice" id="rock">
+               <img class="img-weapon" src="./img/rock.png" alt="Selection - rock">
+             </div>
+             <div class="select-choice" id="paper">
+               <img class="img-weapon" src="./img/paper.png" alt="Selection - paper">
+             </div>
+             <div class="select-choice" id="scissors">
+               <img class="img-weapon" src="./img/scissors.png" alt="Selection - scissors">
+             </div>
+           </div>
+
+
+           <div class="result">
+             <p id="message">Who will win the first game?</p>
+
+
+           <div class="scores">
+             <p class="total-score">Your score: <span id="user-score">0</span></p>
+             <p class="total-score">Computer's score: <span id="computer-score">0</span></p>
+             <button id="reset-button">reset score</button>
+           </div>
+
+           </div>
+
+
+
+         </div>
+
+
+
+
+      
+      <!-- Instructions -->
+      <div class="move">Choose your move</div>
+      <!-- Buttons -->
+      <div class="options">
+        <button type="rock">rock</button>
+        <button type="paper">paper</button>
+        <button type="scissors">scissors</button>
+      </div>
+      <!-- result -->
+      <div class="result"></div>
+      <!-- reset -->
+      <button class="reset"> Reset </button>
+
+
+    </section>
+
+<script type="text/javascript" src="./main.js"></script>
+<footer class="bg-dark">
+     <p>Author:&copy; Olivia Mertz<br>
+       <a href="mailto:523omertz@frhsd.com">523omertz@frhsd.com</a></p>
+   </footer>
+  </body>
+</html>
